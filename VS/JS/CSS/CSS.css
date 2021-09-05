@@ -1,0 +1,73 @@
+body{                                               /*Это селектор*/
+    background-color: rgb(190, 190, 190);
+    opacity: 1.0;                                       /* Этим тоже можно задавать степень прозрачности блока */
+}
+h1, h2, h3, h4, h5, h6{
+    background-color: khaki;
+}
+p {
+    background-color: rgba(189, 207, 241, 0.5);     /* Степень прозрачности выставляется в диапазоне от 0.0 до 1.0 */
+}
+p.one {
+    text-align: center;
+}
+p.two{
+    text-align: justify;
+    height: 5em;
+    width: 46em;
+    background-color: lightgreen;
+}
+a:link {
+    color:rgb(196, 25, 25);
+    text-decoration:rgb(255, 0, 255);
+}
+a:visited{
+    color: red;
+    text-decoration: rosybrown;
+}
+button:hover{
+    color: rgb(75, 6, 235);
+    background-color: springgreen;
+}
+button:active{
+    color: tomato;
+    background-color: yellow;
+}
+img{
+    height: 35em;
+    width: 50em;
+}
+.y-1{
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    border: 3px solid black;
+    position: relative;
+    float: left;
+}
+.y-2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #000;
+    position: absolute;
+    left: 70px;
+    bottom: 35px;
+}
+.y-3{
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+    border: 3px solid black;
+    position: relative;
+    float: left;
+}
+.y-4{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #000;
+    position: absolute;
+    left: 70px;
+    bottom: 35px;
+}
