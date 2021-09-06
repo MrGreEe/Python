@@ -30,3 +30,11 @@ while True:
         break
 
 print('До новых встреч!')
+
+
+
+
+asdad
+asd
+delattrasd
+ads 
