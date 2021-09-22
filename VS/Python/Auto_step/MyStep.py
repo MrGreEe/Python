@@ -1,7 +1,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys #Класс Keys обеспечивает взаимодействие с командами клавиатуры, такими как RETURN, F1, ALT и т.д…
-driver = webdriver.Chrome('D:\chromedriver')    # Здесь указываем именно какой драйвер мы хотим использовать
+driver = webdriver.Chrome('C:\chromedriver')    # Здесь указываем именно какой драйвер мы хотим использовать
 
 driver.get('https://bolid.ru/') # здесь будет выполняться гет запрос, т.е. он должен кудато перейти
 
