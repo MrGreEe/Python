@@ -32,9 +32,3 @@ while True:
 print('До новых встреч!')
 
 
-
-
-asdad
-asd
-delattrasd
-ads 
